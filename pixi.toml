@@ -1,0 +1,14 @@
+[project]
+authors = ["PaulKMueller <paul.mueller@quantco.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "cf-license-stats"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+streamlit = "streamlit run app.py"
+
+[dependencies]
+streamlit = ">=1.40.1,<2"
+plotly = ">=5.24.1,<6"
