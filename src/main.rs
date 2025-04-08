@@ -1,11 +1,9 @@
 use serde_json::Value;
 
 use rayon::prelude::*;
-use reqwest::header::{HeaderMap, HeaderValue, ACCEPT, AUTHORIZATION};
 use spdx::Expression;
 use spdx::ParseError;
 use std::collections::HashMap;
-use std::env;
 
 use serde::Deserialize;
 use serde::Serialize;
@@ -139,18 +137,6 @@ pub fn main() -> Result<()> {
         })
         .collect();
 
-    // Dump results into json file
-    // for (arch, ok, bad, local_map) in results {
-    //     output_data.push((arch.clone(), ok, bad));
-
-    //     for (license_str, count) in local_map {
-    //         let entry = license_counter_map.entry(license_str).or_insert(0);
-    //         *entry += count;
-    //     }
-    // }
-
-    // println!("Results: {:?}", results);
-
     let mut license_summaries = Vec::new();
 
     for (arch, ok, bad, local_map) in results {
@@ -172,7 +158,6 @@ pub fn main() -> Result<()> {
     let mut file = File::create("valid_licenses_data.json")?;
     file.write_all(output_data_json.as_bytes())?;
 
-    // Write all license counts to a json file sorted by their counts
     let mut sorted_license_counter: Vec<_> = license_counter_map
         .iter()
         .map(|(license, count)| LicenseCount {
@@ -205,10 +190,8 @@ pub async fn fetch_repodata_json(
     arch: &str,
     use_zst: bool,
 ) -> Result<Value, Box<dyn std::error::Error>> {
-    // build the client.
     let client = reqwest::Client::new();
 
-    // Make the request
     if !use_zst {
         let repodata_url = format!(
             "https://conda.anaconda.org/conda-forge/{}/repodata.json",
@@ -232,7 +215,6 @@ pub async fn fetch_repodata_json(
 pub async fn download_zst(url: &str) -> Result<Vec<u8>, Box<dyn Error>> {
     let response = reqwest::get(url).await?;
     let bytes = response.bytes().await?;
-    // println!("Downloaded {} bytes", bytes.len());
     Ok(bytes.to_vec())
 }
 
@@ -242,6 +224,5 @@ pub fn decompress_zst_to_string(compressed_data: &[u8]) -> Result<String, Box<dy
         Err(e) => panic!("Decode failed: {}", e),
     };
     let json_string = str::from_utf8(&decompressed_data)?.to_string();
-    // println!("Decompressed {} bytes", json_string.len());
     Ok(json_string)
 }
