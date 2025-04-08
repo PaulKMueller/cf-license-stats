@@ -5,13 +5,20 @@ import json
 import plotly.express as px
 import pandas as pd
 
+
+# Configuration
+st.set_page_config(
+    page_title="License Distribution",
+    page_icon=":bar_chart:",
+)
+
 with open('sorted_license_counter.json') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
 
 # Narrow down to 15 most common licenses
-df = df.nlargest(15, 'count')
+df = df.nlargest(14, 'count')
 
 df.head()
 
