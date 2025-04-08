@@ -1,0 +1,1958 @@
+[
+  {
+    "license": "MIT",
+    "count": 16296
+  },
+  {
+    "license": "Apache-2.0",
+    "count": 7644
+  },
+  {
+    "license": "BSD-3-Clause",
+    "count": 7422
+  },
+  {
+    "license": "INVALID",
+    "count": 4740
+  },
+  {
+    "license": "GPL-2.0-or-later",
+    "count": 2981
+  },
+  {
+    "license": "GPL-3.0-or-later",
+    "count": 2170
+  },
+  {
+    "license": "GPL-3.0-only",
+    "count": 1976
+  },
+  {
+    "license": "BSD-2-Clause",
+    "count": 1275
+  },
+  {
+    "license": "GPL-2.0-only",
+    "count": 1182
+  },
+  {
+    "license": "MPL-2.0",
+    "count": 661
+  },
+  {
+    "license": "LGPL-3.0-or-later",
+    "count": 599
+  },
+  {
+    "license": "LGPL-2.1-or-later",
+    "count": 586
+  },
+  {
+    "license": "LGPL-3.0-only",
+    "count": 483
+  },
+  {
+    "license": "LGPL-2.0-or-later",
+    "count": 340
+  },
+  {
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "count": 297
+  },
+  {
+    "license": "LGPL-2.1-only",
+    "count": 260
+  },
+  {
+    "license": "GPL-1.0-or-later OR Artistic-1.0-Perl",
+    "count": 254
+  },
+  {
+    "license": "LicenseRef-NVIDIA-End-User-License-Agreement",
+    "count": 228
+  },
+  {
+    "license": "GPL-3.0",
+    "count": 224
+  },
+  {
+    "license": "AGPL-3.0-only",
+    "count": 193
+  },
+  {
+    "license": "ISC",
+    "count": 164
+  },
+  {
+    "license": "BSL-1.0",
+    "count": 161
+  },
+  {
+    "license": "CC0-1.0",
+    "count": 153
+  },
+  {
+    "license": "Apache-2.0 AND MIT",
+    "count": 150
+  },
+  {
+    "license": "Zlib",
+    "count": 142
+  },
+  {
+    "license": "Unlicense",
+    "count": 128
+  },
+  {
+    "license": "NCSA",
+    "count": 125
+  },
+  {
+    "license": "AGPL-3.0-or-later",
+    "count": 119
+  },
+  {
+    "license": "Artistic-2.0",
+    "count": 117
+  },
+  {
+    "license": "GPL-2.0",
+    "count": 105
+  },
+  {
+    "license": "LGPL-3.0",
+    "count": 85
+  },
+  {
+    "license": "PSF-2.0",
+    "count": 68
+  },
+  {
+    "license": "LGPL-2.1",
+    "count": 67
+  },
+  {
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "count": 66
+  },
+  {
+    "license": "LGPL-2.0-only",
+    "count": 61
+  },
+  {
+    "license": "MIT OR Apache-2.0",
+    "count": 51
+  },
+  {
+    "license": "BSD-3-Clause-LBNL",
+    "count": 48
+  },
+  {
+    "license": "BSD-4-Clause",
+    "count": 45
+  },
+  {
+    "license": "EPL-2.0",
+    "count": 42
+  },
+  {
+    "license": "NIST-PD",
+    "count": 42
+  },
+  {
+    "license": "Apache-2.0 OR MIT",
+    "count": 42
+  },
+  {
+    "license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+    "count": 39
+  },
+  {
+    "license": "LicenseRef-IntelSimplifiedSoftwareOct2022",
+    "count": 39
+  },
+  {
+    "license": "MIT AND BSD-3-Clause",
+    "count": 38
+  },
+  {
+    "license": "CC-BY-SA-3.0",
+    "count": 37
+  },
+  {
+    "license": "ZPL-2.1",
+    "count": 37
+  },
+  {
+    "license": "MIT AND Apache-2.0",
+    "count": 37
+  },
+  {
+    "license": "EPICS",
+    "count": 35
+  },
+  {
+    "license": "EPL-1.0",
+    "count": 33
+  },
+  {
+    "license": "EUPL-1.2",
+    "count": 32
+  },
+  {
+    "license": "Apache-2.0 OR EPL-2.0",
+    "count": 32
+  },
+  {
+    "license": "Python-2.0",
+    "count": 31
+  },
+  {
+    "license": "BSD-3-Clause-Clear",
+    "count": 30
+  },
+  {
+    "license": "CC-BY-SA-4.0",
+    "count": 29
+  },
+  {
+    "license": "CECILL-C",
+    "count": 29
+  },
+  {
+    "license": "0BSD",
+    "count": 29
+  },
+  {
+    "license": "LicenseRef-Proprietary-Intel-End-User-License-Agreement-for-Developer-Tools",
+    "count": 25
+  },
+  {
+    "license": "Apache-2.0 AND LicenseRef-Public-Domain",
+    "count": 25
+  },
+  {
+    "license": "PostgreSQL",
+    "count": 24
+  },
+  {
+    "license": "BSD-3-Clause AND MIT",
+    "count": 23
+  },
+  {
+    "license": "APSL-2.0",
+    "count": 20
+  },
+  {
+    "license": "LicenseRef-OTHER",
+    "count": 20
+  },
+  {
+    "license": "LicenseRef-BSD-3-Clause-SLAC",
+    "count": 19
+  },
+  {
+    "license": "LicenseRef-ProprietaryIntel",
+    "count": 19
+  },
+  {
+    "license": "BSD-3-Clause AND GPL-2.0-or-later",
+    "count": 19
+  },
+  {
+    "license": "BUSL-1.1",
+    "count": 17
+  },
+  {
+    "license": "CDDL-1.0",
+    "count": 17
+  },
+  {
+    "license": "EUPL-1.1",
+    "count": 17
+  },
+  {
+    "license": "CPL-1.0",
+    "count": 17
+  },
+  {
+    "license": "Apache-2.0 AND LGPL-3.0-or-later",
+    "count": 16
+  },
+  {
+    "license": "BSD-3-Clause AND MIT AND GPL-3.0-or-later",
+    "count": 16
+  },
+  {
+    "license": "MIT AND LicenseRef-HDF5 AND BSD-3-Clause",
+    "count": 16
+  },
+  {
+    "license": "CECILL-2.0",
+    "count": 16
+  },
+  {
+    "license": "MIT AND BSL-1.0",
+    "count": 16
+  },
+  {
+    "license": "BSD-2-Clause OR GPL-2.0-only",
+    "count": 16
+  },
+  {
+    "license": "CECILL-B",
+    "count": 15
+  },
+  {
+    "license": "CC-BY-4.0",
+    "count": 15
+  },
+  {
+    "license": "BSD-3-Clause AND Apache-2.0",
+    "count": 15
+  },
+  {
+    "license": "Apache-2.0 AND MIT AND BSD-3-Clause",
+    "count": 15
+  },
+  {
+    "license": "GPL-2.0-only OR GPL-3.0-only",
+    "count": 14
+  },
+  {
+    "license": "GPL-3.0-or-later OR LGPL-3.0-or-later",
+    "count": 14
+  },
+  {
+    "license": "OFL-1.1",
+    "count": 14
+  },
+  {
+    "license": "GPL-2.0-or-later WITH Universal-FOSS-exception-1.0",
+    "count": 14
+  },
+  {
+    "license": "CECILL-2.1",
+    "count": 14
+  },
+  {
+    "license": "curl",
+    "count": 13
+  },
+  {
+    "license": "LGPL-2.1-or-later AND GPL-3.0-or-later",
+    "count": 12
+  },
+  {
+    "license": "LicenseRef-libglvnd",
+    "count": 12
+  },
+  {
+    "license": "CC-BY-NC-SA-4.0",
+    "count": 12
+  },
+  {
+    "license": "LicenseRef-MPICH",
+    "count": 12
+  },
+  {
+    "license": "GPL-2.0-or-later OR LGPL-2.1-or-later",
+    "count": 12
+  },
+  {
+    "license": "MPL-1.1",
+    "count": 12
+  },
+  {
+    "license": "TCL",
+    "count": 12
+  },
+  {
+    "license": "Apache-2.0 AND BSD-3-Clause",
+    "count": 11
+  },
+  {
+    "license": "OLDAP-2.8",
+    "count": 11
+  },
+  {
+    "license": "zlib-acknowledgement",
+    "count": 10
+  },
+  {
+    "license": "IJG",
+    "count": 10
+  },
+  {
+    "license": "LicenseRef-Public-Domain",
+    "count": 10
+  },
+  {
+    "license": "MIT AND GPL-3.0-or-later",
+    "count": 10
+  },
+  {
+    "license": "BlueOak-1.0.0",
+    "count": 10
+  },
+  {
+    "license": "GPL-3.0-or-later WITH GCC-exception-3.1",
+    "count": 10
+  },
+  {
+    "license": "GPL-2.0-or-later OR Apache-2.0",
+    "count": 9
+  },
+  {
+    "license": "WTFPL",
+    "count": 9
+  },
+  {
+    "license": "AGPL-3.0",
+    "count": 9
+  },
+  {
+    "license": "BSD-3-Clause AND LGPL-2.1-or-later",
+    "count": 9
+  },
+  {
+    "license": "LicenseRef-CeCILL",
+    "count": 9
+  },
+  {
+    "license": "LicenseRef-NENGO",
+    "count": 9
+  },
+  {
+    "license": "LGPL-3.0-or-later AND Apache-2.0",
+    "count": 9
+  },
+  {
+    "license": "MIT AND ISC AND BSD-2-Clause",
+    "count": 9
+  },
+  {
+    "license": "NASA-1.3",
+    "count": 9
+  },
+  {
+    "license": "LGPL-3.0-only OR Apache-2.0",
+    "count": 9
+  },
+  {
+    "license": "GPL-3.0-only AND Apache-2.0",
+    "count": 9
+  },
+  {
+    "license": "NetCDF",
+    "count": 9
+  },
+  {
+    "license": "MIT AND BSD-2-Clause",
+    "count": 8
+  },
+  {
+    "license": "BSD-3-Clause AND MIT AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "count": 8
+  },
+  {
+    "license": "GPL-2.0-only WITH GCC-exception-2.0",
+    "count": 8
+  },
+  {
+    "license": "BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+    "count": 8
+  },
+  {
+    "license": "CC-BY-NC-3.0",
+    "count": 8
+  },
+  {
+    "license": "GPL-2.0-only OR GPL-3.0-only OR LGPL-3.0-only",
+    "count": 8
+  },
+  {
+    "license": "LicenseRef-BSD-UCAR",
+    "count": 8
+  },
+  {
+    "license": "GPL-3.0-or-later AND MIT",
+    "count": 8
+  },
+  {
+    "license": "LGPL-2.1-or-later OR BSD-4-Clause",
+    "count": 8
+  },
+  {
+    "license": "GPL-2.0-only OR LGPL-2.1-only OR BSD-3-Clause",
+    "count": 7
+  },
+  {
+    "license": "LGPL-2.0-only AND GPL-2.0-only AND GPL-2.0-or-later",
+    "count": 7
+  },
+  {
+    "license": "LicenseRef-PyEBSDIndex",
+    "count": 7
+  },
+  {
+    "license": "LGPL-2.0-only OR BSD-3-Clause",
+    "count": 7
+  },
+  {
+    "license": "LicenseRef-Qhull",
+    "count": 7
+  },
+  {
+    "license": "Apache-2.0 OR BSD-3-Clause",
+    "count": 7
+  },
+  {
+    "license": "0BSD AND LGPL-2.1-or-later AND GPL-2.0-or-later",
+    "count": 7
+  },
+  {
+    "license": "Artistic-1.0-Perl",
+    "count": 7
+  },
+  {
+    "license": "libtiff",
+    "count": 7
+  },
+  {
+    "license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "count": 7
+  },
+  {
+    "license": "HPND",
+    "count": 7
+  },
+  {
+    "license": "LicenseRef-NVIDIA-SOFTWARE-LICENSE",
+    "count": 7
+  },
+  {
+    "license": "LicenseRef-DICE-lab",
+    "count": 6
+  },
+  {
+    "license": "LicenseRef-NCSA",
+    "count": 6
+  },
+  {
+    "license": "LicenseRef-BSD-like",
+    "count": 6
+  },
+  {
+    "license": "W3C",
+    "count": 6
+  },
+  {
+    "license": "LicenseRef-ACM",
+    "count": 6
+  },
+  {
+    "license": "CC-BY-NC-4.0",
+    "count": 6
+  },
+  {
+    "license": "LGPL-3.0-only OR Artistic-2.0",
+    "count": 6
+  },
+  {
+    "license": "BSD-1-Clause",
+    "count": 6
+  },
+  {
+    "license": "GPL-2.0-or-later OR BSD-2-Clause",
+    "count": 6
+  },
+  {
+    "license": "AFL-3.0",
+    "count": 6
+  },
+  {
+    "license": "CC-BY-2.0",
+    "count": 6
+  },
+  {
+    "license": "Apache-2.0 AND MIT AND BSD-3-Clause AND BSD-2-Clause",
+    "count": 6
+  },
+  {
+    "license": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+    "count": 5
+  },
+  {
+    "license": "LicenseRef-.amazon.com.-AmznSL-1.0",
+    "count": 5
+  },
+  {
+    "license": "Apache-2.0 AND BSD-4-Clause",
+    "count": 5
+  },
+  {
+    "license": "BSD-3-Clause-Modification",
+    "count": 5
+  },
+  {
+    "license": "PHP-3.01",
+    "count": 5
+  },
+  {
+    "license": "BSD-2-Clause AND LicenseRef-non-commerical-use-only",
+    "count": 5
+  },
+  {
+    "license": "LGPL-2.0",
+    "count": 5
+  },
+  {
+    "license": "LGPL-2.1-only AND BSD-3-Clause",
+    "count": 5
+  },
+  {
+    "license": "BSD-3-Clause AND GPL-3.0-only",
+    "count": 5
+  },
+  {
+    "license": "MIT AND LGPL-3.0-or-later",
+    "count": 5
+  },
+  {
+    "license": "LGPL-3.0-only AND MIT AND MIT-0 AND Apache-2.0",
+    "count": 5
+  },
+  {
+    "license": "CC-PDDC AND BSD-3-Clause AND BSD-2-Clause AND ZPL-2.1",
+    "count": 5
+  },
+  {
+    "license": "MIT AND BSD-3-Clause AND Apache-2.0",
+    "count": 5
+  },
+  {
+    "license": "BSD-2-Clause AND MIT",
+    "count": 5
+  },
+  {
+    "license": "Unlicense AND MIT",
+    "count": 5
+  },
+  {
+    "license": "LicenseRef-Bloomberg-BLPAPI",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-PyCIFRW-PSF-2.0-like",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-TurboReg-StackReg",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-modified-LGPL",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-PyMOL",
+    "count": 4
+  },
+  {
+    "license": "SAX-PD",
+    "count": 4
+  },
+  {
+    "license": "Apache-2.0 AND MIT AND GPL-2.0-only WITH Classpath-exception-2.0",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-HDF5",
+    "count": 4
+  },
+  {
+    "license": "X11",
+    "count": 4
+  },
+  {
+    "license": "AFL-2.1",
+    "count": 4
+  },
+  {
+    "license": "LGPL-3.0-only AND BSD-3-Clause AND MIT",
+    "count": 4
+  },
+  {
+    "license": "ISC AND BSD-3-Clause",
+    "count": 4
+  },
+  {
+    "license": "BSD-2-Clause AND BSD-3-Clause",
+    "count": 4
+  },
+  {
+    "license": "Zlib AND Apache-2.0",
+    "count": 4
+  },
+  {
+    "license": "EPL-2.0 OR GPL-2.0-or-later",
+    "count": 4
+  },
+  {
+    "license": "LGPL-3.0-only OR MIT",
+    "count": 4
+  },
+  {
+    "license": "GPL-3.0-only OR EPL-2.0",
+    "count": 4
+  },
+  {
+    "license": "MPL-2.0 AND (GPL-2.0-or-later OR LicenseRef-FreeType)",
+    "count": 4
+  },
+  {
+    "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT",
+    "count": 4
+  },
+  {
+    "license": "LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+    "count": 4
+  },
+  {
+    "license": "LGPL-2.1-only OR MPL-1.1",
+    "count": 4
+  },
+  {
+    "license": "LGPL-2.1-or-later AND GPL-2.0-or-later AND Apache-2.0",
+    "count": 4
+  },
+  {
+    "license": "bzip2-1.0.6",
+    "count": 4
+  },
+  {
+    "license": "GPL-2.0-only OR LGPL-2.1-only OR MPL-1.1",
+    "count": 4
+  },
+  {
+    "license": "BSD-3-Clause AND LGPL-3.0-only",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-Geant4",
+    "count": 4
+  },
+  {
+    "license": "BSD-2-Clause AND BSD-3-Clause AND Artistic-1.0",
+    "count": 4
+  },
+  {
+    "license": "IJG AND BSD-3-Clause AND Zlib",
+    "count": 4
+  },
+  {
+    "license": "LGPL-2.1-only WITH OCaml-LGPL-linking-exception",
+    "count": 4
+  },
+  {
+    "license": "GD",
+    "count": 4
+  },
+  {
+    "license": "MPL-2.0 AND Apache-2.0",
+    "count": 4
+  },
+  {
+    "license": "MIT AND Unlicense",
+    "count": 4
+  },
+  {
+    "license": "LGPL-3.0-only AND MIT",
+    "count": 4
+  },
+  {
+    "license": "BSD-3-Clause-Attribution",
+    "count": 4
+  },
+  {
+    "license": "CC0-1.0 AND MPL-2.0 AND BSD-3-Clause AND GPL-3.0-only AND LGPL-2.1-or-later AND Minpack AND EPL-2.0",
+    "count": 4
+  },
+  {
+    "license": "BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND JSON AND MIT",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-FOSS AND LicenseRef-BSDLike",
+    "count": 4
+  },
+  {
+    "license": "BSD-2-Clause AND CC-BY-SA-3.0 AND MIT",
+    "count": 4
+  },
+  {
+    "license": "LGPL-2.0-or-later OR MPL-1.1",
+    "count": 4
+  },
+  {
+    "license": "GPL-2.0-only OR MIT",
+    "count": 4
+  },
+  {
+    "license": "GPL-3.0-only OR LGPL-3.0-only",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-Public-Domain OR MIT",
+    "count": 4
+  },
+  {
+    "license": "LGPL-2.1-or-later OR curl",
+    "count": 4
+  },
+  {
+    "license": "AGPL-1.0-or-later",
+    "count": 4
+  },
+  {
+    "license": "Apache-2.0 AND LicenseRef-PARAPET-license",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-CeCILL-B",
+    "count": 4
+  },
+  {
+    "license": "DOC",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-cuQuantum-Software-License-Agreement",
+    "count": 4
+  },
+  {
+    "license": "CC-BY-NC-ND-4.0",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-Biopython",
+    "count": 4
+  },
+  {
+    "license": "0BSD AND LGPL-2.1-or-later",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-InChI",
+    "count": 4
+  },
+  {
+    "license": "BSD-3-Clause AND SMLNJ",
+    "count": 4
+  },
+  {
+    "license": "LGPL-3.0-or-later OR CC-BY-SA-3.0",
+    "count": 4
+  },
+  {
+    "license": "LPL-1.02",
+    "count": 4
+  },
+  {
+    "license": "BSD-3-Clause OR Apache-2.0",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-UnRAR",
+    "count": 4
+  },
+  {
+    "license": "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0",
+    "count": 4
+  },
+  {
+    "license": "GPL-3.0-or-later AND Apache-2.0",
+    "count": 4
+  },
+  {
+    "license": "BSD-3-Clause OR GPL-3.0-only OR LicenseRef-hidapi",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-PIL",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-wxWindows",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-plotly-resampler",
+    "count": 4
+  },
+  {
+    "license": "CECILL-C OR CECILL-B OR CECILL-2.1",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-cuSPARSELt-Software-License-Agreement",
+    "count": 4
+  },
+  {
+    "license": "MIT AND GPL-2.0-or-later",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-Pylons",
+    "count": 4
+  },
+  {
+    "license": "GPL-2.0-only OR FTL",
+    "count": 4
+  },
+  {
+    "license": "MIT AND LicenseRef-Proprietary-Triangle AND AGPL-3.0-or-later",
+    "count": 4
+  },
+  {
+    "license": "CC-PDDC",
+    "count": 4
+  },
+  {
+    "license": "GPL-2.0-or-later WITH Bootloader-exception",
+    "count": 4
+  },
+  {
+    "license": "JasPer-2.0",
+    "count": 4
+  },
+  {
+    "license": "SMLNJ",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-Bdwgc-Mit-Like",
+    "count": 4
+  },
+  {
+    "license": "PDDL-1.0",
+    "count": 4
+  },
+  {
+    "license": "BSD-3-Clause AND MIT AND OpenSSL",
+    "count": 4
+  },
+  {
+    "license": "any-OSI",
+    "count": 4
+  },
+  {
+    "license": "Artistic-1.0-Perl OR GPL-1.0-or-later",
+    "count": 4
+  },
+  {
+    "license": "Elastic-2.0",
+    "count": 4
+  },
+  {
+    "license": "Vim",
+    "count": 4
+  },
+  {
+    "license": "SSPL-1.0",
+    "count": 4
+  },
+  {
+    "license": "GPL-1.0-or-later",
+    "count": 4
+  },
+  {
+    "license": "LGPL-2.1-or-later AND BSD-3-Clause AND GPL-2.0-or-later AND Apache-2.0",
+    "count": 4
+  },
+  {
+    "license": "Apache-2.0 AND LGPL-2.1-only AND MIT",
+    "count": 4
+  },
+  {
+    "license": "GPL-2.0-or-later WITH Classpath-exception-2.0",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-fitsio",
+    "count": 4
+  },
+  {
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "count": 4
+  },
+  {
+    "license": "MIT AND BSD-3-Clause AND MPL-2.0 AND LGPL-3.0-or-later AND GPL-3.0-or-later",
+    "count": 4
+  },
+  {
+    "license": "DSDP",
+    "count": 4
+  },
+  {
+    "license": "NCSA OR LGPL-2.1-only",
+    "count": 4
+  },
+  {
+    "license": "MPL-2.0 AND BUSL-1.1",
+    "count": 4
+  },
+  {
+    "license": "LicenseRef-PyNGL",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-TfN-License",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-Databricks-License",
+    "count": 3
+  },
+  {
+    "license": "GPL-3.0-or-later OR MIT",
+    "count": 3
+  },
+  {
+    "license": "MIT AND Apache-2.0 WITH LLVM-exception",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-BSD-3-CLAUSE-VORO",
+    "count": 3
+  },
+  {
+    "license": "SSH-OpenSSH",
+    "count": 3
+  },
+  {
+    "license": "MPL-2.0-no-copyleft-exception",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-BSDLike",
+    "count": 3
+  },
+  {
+    "license": "MIT AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MPL-2.0 AND Zlib AND Unlicense",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-NvidiaProprietary",
+    "count": 3
+  },
+  {
+    "license": "CC-BY-SA-4.0 AND GFDL-1.3-or-later AND GPL-3.0-or-later",
+    "count": 3
+  },
+  {
+    "license": "X11 AND BSD-3-Clause",
+    "count": 3
+  },
+  {
+    "license": "BSD-3-Clause AND GPL-2.0-only",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-PnetCDF",
+    "count": 3
+  },
+  {
+    "license": "BSD-2-Clause AND BSD-3-Clause AND GPL-3.0-only",
+    "count": 3
+  },
+  {
+    "license": "SSPL-1.0 OR LicenseRef-RSALv2",
+    "count": 3
+  },
+  {
+    "license": "MPL-2.0 OR GPL-3.0-or-later",
+    "count": 3
+  },
+  {
+    "license": "GPL-3.0-or-later OR MPL-2.0",
+    "count": 3
+  },
+  {
+    "license": "GPL-1.0-only",
+    "count": 3
+  },
+  {
+    "license": "GPL-3.0-only AND AGPL-3.0-or-later",
+    "count": 3
+  },
+  {
+    "license": "MIT AND BSD-3-Clause-Clear",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-PublicDomain",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-PSF-based",
+    "count": 3
+  },
+  {
+    "license": "GPL-2.0-or-later OR GPL-3.0-or-later OR FreeImage",
+    "count": 3
+  },
+  {
+    "license": "GPL-3.0-or-later AND LGPL-3.0-or-later AND BSD-3-Clause AND MIT",
+    "count": 3
+  },
+  {
+    "license": "GPL-2.0-only OR BSD-3-Clause",
+    "count": 3
+  },
+  {
+    "license": "Spencer-94 AND CC0-1.0",
+    "count": 3
+  },
+  {
+    "license": "ECL-2.0",
+    "count": 3
+  },
+  {
+    "license": "Pixar",
+    "count": 3
+  },
+  {
+    "license": "MIT OR NCSA OR MPL-2.0",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-X13AS",
+    "count": 3
+  },
+  {
+    "license": "BSD-3-Clause-Modification AND BSD-3-Clause AND PSF-2.0",
+    "count": 3
+  },
+  {
+    "license": "BSD-3-Clause AND LGPL-2.0-or-later AND LGPL-2.1-or-later",
+    "count": 3
+  },
+  {
+    "license": "Unlicense AND MIT AND Zlib AND BSD-2-Clause AND ZPL-2.1",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-ParMETIS",
+    "count": 3
+  },
+  {
+    "license": "GPL-2.0-only AND Zlib",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-BSD-3-Clause-SLAC AND EPICS",
+    "count": 3
+  },
+  {
+    "license": "BSD-2-Clause-Views",
+    "count": 3
+  },
+  {
+    "license": "NIST-PD-fallback",
+    "count": 3
+  },
+  {
+    "license": "AGPL-1.0-only",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-cython-hidapi OR GPL-3.0-only OR BSD-3-Clause",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-BSD-3-CLAUSE-ZEOPP",
+    "count": 3
+  },
+  {
+    "license": "LGPL-2.0-only OR LGPL-2.1-only",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-DHB",
+    "count": 3
+  },
+  {
+    "license": "MIT AND LicenseRef-CSIRO",
+    "count": 3
+  },
+  {
+    "license": "OGC-1.0 AND Apache-2.0",
+    "count": 3
+  },
+  {
+    "license": "BSD-Protection",
+    "count": 3
+  },
+  {
+    "license": "GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-only AND LPPL-1.3c AND LPPL-1.0 AND Artistic-1.0 AND Apache-2.0 AND MIT AND BSD-3-Clause",
+    "count": 3
+  },
+  {
+    "license": "(Apache-2.0 OR BSD-3-Clause) AND LicenseRef-SNAPHU",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-CYTHONBIOGEME",
+    "count": 3
+  },
+  {
+    "license": "LicenseRef-Lucent-Technologies",
+    "count": 3
+  },
+  {
+    "license": "GPL-3.0 AND Apache-2.0 AND BSD-3-Clause",
+    "count": 3
+  },
+  {
+    "license": "Apache-2.0 AND LicenseRef-NVIDIA-License",
+    "count": 3
+  },
+  {
+    "license": "ImageMagick",
+    "count": 3
+  },
+  {
+    "license": "Apache-1.1",
+    "count": 2
+  },
+  {
+    "license": "MIT AND Apache-2.0 AND OFL-1.1 AND CC-BY-4.0 AND LicenseRef-Symbola-Public-Domain AND LicenseRef-DejaVu-Fonts",
+    "count": 2
+  },
+  {
+    "license": "LGPL-3.0-or-later AND GPL-3.0-or-later",
+    "count": 2
+  },
+  {
+    "license": "BSD-2-Clause-Patent",
+    "count": 2
+  },
+  {
+    "license": "BSD-3-Clause AND BSD-4-Clause",
+    "count": 2
+  },
+  {
+    "license": "UPL-1.0",
+    "count": 2
+  },
+  {
+    "license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+    "count": 2
+  },
+  {
+    "license": "LicenseRef-nvCOMP-Software-License-Agreement AND LicenseRef-NVIDIA-End-User-License-Agreement",
+    "count": 2
+  },
+  {
+    "license": "GPL-2.0-only AND LGPL-2.0-or-later AND MIT",
+    "count": 2
+  },
+  {
+    "license": "GPL-3.0-or-later AND LGPL-3.0-or-later",
+    "count": 2
+  },
+  {
+    "license": "MIT AND PSF-2.0",
+    "count": 2
+  },
+  {
+    "license": "ISC AND GPL-2.0-or-later",
+    "count": 2
+  },
+  {
+    "license": "MIT AND MPL-1.1",
+    "count": 2
+  },
+  {
+    "license": "LGPL-2.1-only AND GPL-2.0-only",
+    "count": 2
+  },
+  {
+    "license": "GPL-2.0-or-later WITH openvpn-openssl-exception",
+    "count": 2
+  },
+  {
+    "license": "Sleepycat",
+    "count": 2
+  },
+  {
+    "license": "SGI-B-2.0",
+    "count": 2
+  },
+  {
+    "license": "LicenseRef-MathDx-Software-License-Agreement",
+    "count": 2
+  },
+  {
+    "license": "zlib-acknowledgement AND bzip2-1.0.6 AND CPL-1.0 AND LGPL-2.1-or-later",
+    "count": 2
+  },
+  {
+    "license": "Apache-2.0 AND BSD-3-Clause AND BSD-2-Clause AND BSL-1.0 AND NCSA AND MIT AND LicenseRef-NVIDIA-Software-License",
+    "count": 2
+  },
+  {
+    "license": "LicenseRef-JOVE",
+    "count": 2
+  },
+  {
+    "license": "LicenseRef-USNO-PD",
+    "count": 2
+  },
+  {
+    "license": "MIT-0",
+    "count": 2
+  },
+  {
+    "license": "ZPL-2.1 AND BSD-3-Clause",
+    "count": 2
+  },
+  {
+    "license": "LicenseRef-cuTENSOR-Software-License-Agreement",
+    "count": 2
+  },
+  {
+    "license": "Zlib AND BSD-3-Clause",
+    "count": 2
+  },
+  {
+    "license": "BSD-4-Clause AND Apache-2.0",
+    "count": 2
+  },
+  {
+    "license": "GPL-2.0-or-later OR LGPL-2.0-or-later",
+    "count": 2
+  },
+  {
+    "license": "LicenseRef-chargemol",
+    "count": 2
+  },
+  {
+    "license": "NIST-Software",
+    "count": 2
+  },
+  {
+    "license": "GPL-2.0-only AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-GPL AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 2
+  },
+  {
+    "license": "GPL-3.0-or-later OR BSD-3-Clause",
+    "count": 2
+  },
+  {
+    "license": "BSD-3-Clause AND MPL-2.0",
+    "count": 2
+  },
+  {
+    "license": "OGL-UK-3.0",
+    "count": 2
+  },
+  {
+    "license": "GPL-3.0-or-later AND Apache-2.0 AND CC0-1.0 AND CC-BY-SA-4.0",
+    "count": 2
+  },
+  {
+    "license": "GPL-3.0-only AND BSD-4-Clause-UC",
+    "count": 2
+  },
+  {
+    "license": "LicenseRef-cuDNN-Software-License-Agreement",
+    "count": 2
+  },
+  {
+    "license": "GPL-2.0-or-later AND EPL-2.0 AND BSD-3-Clause",
+    "count": 2
+  },
+  {
+    "license": "NOSL",
+    "count": 2
+  },
+  {
+    "license": "BSD-3-Clause AND LicenseRef-LIMnd2sdk",
+    "count": 2
+  },
+  {
+    "license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND Unlicense AND ISC AND BSD-2-Clause",
+    "count": 2
+  },
+  {
+    "license": "LicenseRef-BSL-1.1",
+    "count": 2
+  },
+  {
+    "license": "LicenseRef-Janelia-Open-Source",
+    "count": 2
+  },
+  {
+    "license": "ODbL-1.0",
+    "count": 2
+  },
+  {
+    "license": "MIT AND MPL-2.0",
+    "count": 2
+  },
+  {
+    "license": "CC-BY-3.0",
+    "count": 2
+  },
+  {
+    "license": "MIT AND BSD-3-Clause AND Apache-2.0 WITH LLVM-exception",
+    "count": 2
+  },
+  {
+    "license": "LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 2
+  },
+  {
+    "license": "GPL-2.0-only AND LGPL-3.0-or-later",
+    "count": 1
+  },
+  {
+    "license": "MIT AND CC0-1.0",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-US-Government OR BSD-3-Clause",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND MPL-1.1",
+    "count": 1
+  },
+  {
+    "license": "GPL-3.0-only AND ZPL-2.0",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 AND EPL-2.0 AND MIT",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND MIT AND Apache-2.0 AND CC0-1.0 AND CC-BY-SA-4.0 AND CC-BY-4.0\n",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-Brown-University-2023",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-or-later OR BSD-3-Clause",
+    "count": 1
+  },
+  {
+    "license": "CC0-1.0 AND BSD-3-Clause",
+    "count": 1
+  },
+  {
+    "license": "Unlicense AND BSD-2-Clause AND MIT AND Apache-2.0",
+    "count": 1
+  },
+  {
+    "license": "LGPL-3.0-only AND GPL-3.0-only",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND BSD-3-Clause-LBNL",
+    "count": 1
+  },
+  {
+    "license": "Unicode-DFS-2016",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later AND MPL-1.1",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-BIOGEME",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-HYGEOS-gatiab",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0 OR EPL-1.0",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-Proprietary-Intel-Simplified-Software-License",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 OR LGPL-3.0-only",
+    "count": 1
+  },
+  {
+    "license": "LGPL-3.0-only AND LGPLLR AND GPL-3.0-only",
+    "count": 1
+  },
+  {
+    "license": "BSD-Source-Code",
+    "count": 1
+  },
+  {
+    "license": "GPL-3.0-only AND CECILL-C AND Apache-2.0 AND LGPL-3.0-only",
+    "count": 1
+  },
+  {
+    "license": "MulanPSL-2.0",
+    "count": 1
+  },
+  {
+    "license": "LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-BBii-Decon-4-Clause",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-or-later AND LGPL-2.0-or-later AND LGPL-2.1-or-later",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later",
+    "count": 1
+  },
+  {
+    "license": "LGPL-3.0-only OR BSD-3-Clause",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 AND GPL-2.0-or-later",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 AND Python-2.0 AND MulanPSL-2.0",
+    "count": 1
+  },
+  {
+    "license": "ZPL-2.1 AND LGPL-2.1-or-later",
+    "count": 1
+  },
+  {
+    "license": "NGPL",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause OR LGPL-3.0-or-later",
+    "count": 1
+  },
+  {
+    "license": "FSFAP",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 OR GPL-2.0-or-later",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-CBICA",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-NOASSERTION",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-NTT",
+    "count": 1
+  },
+  {
+    "license": "LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL AND MIT",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-EPICS-Open",
+    "count": 1
+  },
+  {
+    "license": "LGPL-2.1-or-later AND BSD-3-Clause AND BSD-2-Clause",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-LICENSE.txt",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 AND UPL-1.0",
+    "count": 1
+  },
+  {
+    "license": "GPL-3.0-or-later WITH Autoconf-exception-2.0",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-IGTF",
+    "count": 1
+  },
+  {
+    "license": "LGPL-3.0-or-later AND BSD-3-Clause",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-AS",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause OR MIT",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-or-later AND MIT",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-spherepack",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND 0BSD",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-pyopengl",
+    "count": 1
+  },
+  {
+    "license": "MIT AND X11 AND MPL-2.0",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 AND EPL-2.0",
+    "count": 1
+  },
+  {
+    "license": "CNRI-Python",
+    "count": 1
+  },
+  {
+    "license": "CC-BY-4.0 AND MIT",
+    "count": 1
+  },
+  {
+    "license": "Unlicense AND CC0-1.0",
+    "count": 1
+  },
+  {
+    "license": "BSD-2-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND CC-BY-NC-SA-3.0",
+    "count": 1
+  },
+  {
+    "license": "AGPL-3.0-only OR LicenseRef-SuperTree-Commerical",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-Modified-BSD-3-Clause",
+    "count": 1
+  },
+  {
+    "license": "AGPL-3.0-only OR LicenseRef-Mercury-Commerical",
+    "count": 1
+  },
+  {
+    "license": "EPL-2.0 AND BSD-3-Clause",
+    "count": 1
+  },
+  {
+    "license": "GPL-3.0-or-later AND BSD-2-Clause",
+    "count": 1
+  },
+  {
+    "license": "MIT OR BSD-3-Clause OR Artistic-1.0-Perl OR Artistic-2.0",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL AND MIT",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND CC-PDDC AND LicenseRef-AllenInstitute AND LicenseRef-CellTrackingChallenge AND CC-BY-4.0",
+    "count": 1
+  },
+  {
+    "license": "0BSD AND MIT",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-CondaStandalone",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 OR UPL-1.0",
+    "count": 1
+  },
+  {
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "count": 1
+  },
+  {
+    "license": "BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL AND MIT",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-MicrosoftVisualCpp2015-2022Runtime",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LGPL-3.0-or-later AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND LGPL-2.0-or-later",
+    "count": 1
+  },
+  {
+    "license": "MIT AND OFL-1.1 AND LPPL-1.3c",
+    "count": 1
+  },
+  {
+    "license": "LGPL-2.1-or-later AND Apache-2.0",
+    "count": 1
+  },
+  {
+    "license": "LGPL-2.0-or-later OR GPL-2.0-or-later",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-BIOGEME-OPTIMIZATION",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 AND GPL-3.0-only AND BSD-2-Clause",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-only AND BSD-2-Clause",
+    "count": 1
+  },
+  {
+    "license": "GFDL-1.2-or-later",
+    "count": 1
+  },
+  {
+    "license": "LGPL-3.0 AND GPL-3.0",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-pgplot",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND MIT AND MPL-2.0",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "MIT AND BSD-3-Clause AND LGPL-3.0-only",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND PSF-2.0",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 AND Unlicense AND BSD-2-Clause",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT",
+    "count": 1
+  },
+  {
+    "license": "MIT AND CC-BY-4.0",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-CSIRO-Open-Source",
+    "count": 1
+  },
+  {
+    "license": "LGPL-3.0-or-later AND MIT",
+    "count": 1
+  },
+  {
+    "license": "QPL-1.0",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "ZPL-2.0",
+    "count": 1
+  },
+  {
+    "license": "BSD-2-Clause AND PSF-2.0",
+    "count": 1
+  },
+  {
+    "license": "AGPL-3.0-only AND LGPL-2.1-only AND MIT",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-Ubuntu-Font-Licence-Version-1.0",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-BSD-Analog-Devices",
+    "count": 1
+  },
+  {
+    "license": "GPL-3.0 AND BSD-3-Clause",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-only AND GPL-3.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-GPL AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "Linux-OpenIB",
+    "count": 1
+  },
+  {
+    "license": "MIT-0 AND Apache-2.0",
+    "count": 1
+  },
+  {
+    "license": "0BSD OR CC0-1.0",
+    "count": 1
+  },
+  {
+    "license": "CC-BY-4.0 AND OFL-1.1 AND MIT",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND MIT AND 0BSD",
+    "count": 1
+  },
+  {
+    "license": "LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-Unlimited",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-HYGEOS-geoclide",
+    "count": 1
+  },
+  {
+    "license": "LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  },
+  {
+    "license": "BSD-4.3TAHOE",
+    "count": 1
+  },
+  {
+    "license": "LGPLLR",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-only AND LGPL-2.1-only",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND (MIT OR PSF-2.0 OR ZPL-2.1)",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause OR GPL-2.0-only",
+    "count": 1
+  },
+  {
+    "license": "MIT AND NIST-PD",
+    "count": 1
+  },
+  {
+    "license": "LPPL-1.3c",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-PUBLIC-DOMAIN",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 AND SL",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND GPL-2.0-or-later AND MIT",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-MicrosoftWindowsSDK10",
+    "count": 1
+  },
+  {
+    "license": "BSD-3-Clause AND (GPL-2.0-only OR GPL-3.0-only)",
+    "count": 1
+  },
+  {
+    "license": "Apache-2.0 AND BSD-2-Clause AND MPL-2.0 AND Unlicense AND MIT AND BSD-3-Clause AND EPL-2.0",
+    "count": 1
+  },
+  {
+    "license": "BSD-4-Clause AND Apache-2.0 AND BSD-3-Clause",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-CNRI",
+    "count": 1
+  },
+  {
+    "license": "MIT AND LicenseRef-AMDC AND LicenseRef-ICRP-07",
+    "count": 1
+  },
+  {
+    "license": "LicenseRef-PDCurses",
+    "count": 1
+  },
+  {
+    "license": "GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-GPL AND LicenseRef-KDE-Accepted-LGPL",
+    "count": 1
+  }
+]

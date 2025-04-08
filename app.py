@@ -3,29 +3,20 @@ import streamlit as st
 # Open data.json file to read (platform, ok_licenses, bad_licenses) triples into dictionary
 import json
 import plotly.express as px
+import pandas as pd
 
-with open('data.json') as f:
+with open('sorted_license_counter.json') as f:
     data = json.load(f)
 
-# Streamlit app title
-st.title("Platform License Distribution")
+df = pd.DataFrame(data)
 
-# Iterate over each platform and create pie charts
-for platform, ok_licenses, bad_licenses in data:
-    # Data preparation for Plotly
-    chart_data = {
-        'License Type': ['OK Licenses', 'Bad Licenses'],
-        'Count': [ok_licenses, bad_licenses]
-    }
+# Narrow down to 15 most common licenses
+df = df.nlargest(15, 'count')
 
-    # Create a pie chart with Plotly Express
-    fig = px.pie(
-        chart_data,
-        names='License Type',
-        values='Count',
-        title=f"License Distribution for {platform}",
-        hole=0.3  # Optional, creates a donut chart if > 0
-    )
+df.head()
 
-    # Display the chart in Streamlit
-    st.plotly_chart(fig, use_container_width=True)
+st.title("License Distribution")
+# Plot DataFrame
+fig = px.pie(df, values='count', names='license', title='License Distribution')
+# Display the pie chart
+st.plotly_chart(fig, use_container_width=True)

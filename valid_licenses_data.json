@@ -1,0 +1,27 @@
+[
+  {
+    "arch": "linux-64",
+    "valid_licenses": 9768,
+    "invalid_licenses": 1177
+  },
+  {
+    "arch": "osx-64",
+    "valid_licenses": 8908,
+    "invalid_licenses": 1163
+  },
+  {
+    "arch": "win-64",
+    "valid_licenses": 6888,
+    "invalid_licenses": 1185
+  },
+  {
+    "arch": "osx-arm64",
+    "valid_licenses": 4956,
+    "invalid_licenses": 81
+  },
+  {
+    "arch": "noarch",
+    "valid_licenses": 18877,
+    "invalid_licenses": 1134
+  }
+]

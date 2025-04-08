@@ -7,8 +7,9 @@ platforms = ["osx-arm64"]
 version = "0.1.0"
 
 [tasks]
-streamlit = "streamlit run app.py"
+stream = "streamlit run app.py"
 
 [dependencies]
-streamlit = ">=1.40.1,<2"
-plotly = ">=5.24.1,<6"
+plotly = ">=6.0.1,<7"
+streamlit = ">=1.44.1,<2"
+pandas = ">=2.2.3,<3"

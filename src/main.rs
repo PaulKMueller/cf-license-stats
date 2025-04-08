@@ -1,5 +1,6 @@
 use serde_json::Value;
 
+use rayon::prelude::*;
 use reqwest::header::{HeaderMap, HeaderValue, ACCEPT, AUTHORIZATION};
 use spdx::Expression;
 use spdx::ParseError;
@@ -29,12 +30,21 @@ pub struct RepodataPackages {
     pub packages: Vec<RepodataPackage>,
 }
 
+#[derive(Serialize, Debug)]
+struct LicenseValidities {
+    arch: String,
+    valid_licenses: u32,
+    invalid_licenses: u32,
+}
+
+#[derive(serde::Serialize)]
+struct LicenseCount {
+    license: String,
+    count: u64,
+}
+
 pub fn main() -> Result<()> {
     let platforms = vec!["linux-64", "osx-64", "win-64", "osx-arm64", "noarch"];
-
-    // Use triple to keep track of ok_licenses and bad_licenses for each platform
-
-    let mut output_data: Vec<(String, u32, u32)> = Vec::new();
 
     let start = std::time::Instant::now();
 
@@ -43,98 +53,143 @@ pub fn main() -> Result<()> {
         .build()
         .unwrap();
 
-    for arch in platforms {
-        let mut ok_licenses = 0;
-        let mut bad_licenses = 0;
+    let mut license_counter_map: HashMap<String, u64> = HashMap::new();
 
-        let repodata_url = format!(
-            "https://conda.anaconda.org/conda-forge/{}/repodata.json.zst",
-            arch
-        );
-        let read_repodata_task = fetch_repodata_json(&arch, true);
+    let results: Vec<_> = platforms
+        .par_iter()
+        .map(|arch| {
+            let arch = arch.to_string();
 
-        let json = match runtime.block_on(read_repodata_task) {
-            Ok(config) => config,
-            Err(_e) => Value::Null,
-        };
+            let read_repodata_task = fetch_repodata_json(&arch, true);
 
-        let plain_packages = json["packages"].as_object().unwrap();
+            let json = match runtime.block_on(read_repodata_task) {
+                Ok(config) => config,
+                Err(_e) => Value::Null,
+            };
 
-        let packages_conda = json["packages.conda"].as_object().unwrap();
+            let plain_packages = json["packages"].as_object().unwrap();
 
-        let packages = plain_packages
-            .iter()
-            .chain(packages_conda.iter())
-            .collect::<HashMap<_, _>>();
+            let packages_conda = json["packages.conda"].as_object().unwrap();
 
-        let mut package_map: HashMap<String, (String, Result<Expression, ParseError>)> =
-            HashMap::new();
+            let packages = plain_packages.iter().chain(packages_conda.iter());
 
+            let mut package_map: HashMap<String, (String, Result<Expression, ParseError>)> =
+                HashMap::new();
 
-        for (_, package) in packages {
-            // If there is no license information, skip the package
-            if package["license"].is_null() {
-                continue;
-            }
+            for (_, package) in packages {
+                if package["license"].is_null() {
+                    continue;
+                }
 
-            // Extract "name" and "license" from the data
-            if let Some(package_name) = package["name"].as_str() {
-                if let Some(license_string) = package["license"].as_str() {
-                    // Handle timestamp as either a string or a number
-                    let timestamp = if let Some(timestamp_str) = package["timestamp"].as_str() {
-                        timestamp_str.to_string()
-                    } else if let Some(timestamp_num) = package["timestamp"].as_i64() {
-                        timestamp_num.to_string()
+                if let (Some(name), Some(license)) =
+                    (package["name"].as_str(), package["license"].as_str())
+                {
+                    let timestamp = if let Some(ts) = package["timestamp"].as_str() {
+                        ts.to_string()
+                    } else if let Some(ts) = package["timestamp"].as_i64() {
+                        ts.to_string()
                     } else {
-                        // Skip the package if timestamp is neither a string nor a number
                         continue;
                     };
-            
-                    let parsed_license = Expression::parse(license_string);
-            
-                    package_map.insert(
-                        package_name.to_string(),
-                        (timestamp, parsed_license),
-                    );
+
+                    let parsed = Expression::parse(license);
+                    package_map.insert(name.to_string(), (timestamp, parsed));
                 }
             }
-        }
-        let mut packages_to_remove = Vec::new();
 
-        for (package_name, (timestamp, _)) in &package_map {
-            for (other_package_name, (other_timestamp, _)) in &package_map {
-                if package_name == other_package_name && timestamp < other_timestamp {
-                    packages_to_remove.push(package_name.clone());
+            let mut to_remove = vec![];
+            for (a, (ts_a, _)) in &package_map {
+                for (b, (ts_b, _)) in &package_map {
+                    if a == b && ts_a < ts_b {
+                        to_remove.push(a.clone());
+                    }
                 }
             }
-        }
 
-        for package_name in packages_to_remove {
-            package_map.remove(&package_name);
-        }
-
-        for (package_name, (timestamp, parsed_license)) in package_map {
-            if parsed_license.is_ok() {
-                ok_licenses += 1;
-            } else {
-                bad_licenses += 1;
+            for name in to_remove {
+                package_map.remove(&name);
             }
+
+            let mut local_map = HashMap::new();
+            let mut ok = 0;
+            let mut bad = 0;
+
+            for (_, (_, result)) in &package_map {
+                if result.is_ok() {
+                    ok += 1;
+                } else {
+                    bad += 1;
+                }
+
+                // License string is "INVALID" if Expression has not been parsed without error
+                let license_str = if result.is_ok() {
+                    result.as_ref().unwrap().to_string()
+                } else {
+                    "INVALID".to_string()
+                };
+                *local_map.entry(license_str).or_insert(0) += 1;
+            }
+
+            println!(
+                "For platform {}, {} licenses are valid and {} are invalid",
+                arch, ok, bad
+            );
+
+            (arch, ok, bad, local_map)
+        })
+        .collect();
+
+    // Dump results into json file
+    // for (arch, ok, bad, local_map) in results {
+    //     output_data.push((arch.clone(), ok, bad));
+
+    //     for (license_str, count) in local_map {
+    //         let entry = license_counter_map.entry(license_str).or_insert(0);
+    //         *entry += count;
+    //     }
+    // }
+
+    // println!("Results: {:?}", results);
+
+    let mut license_summaries = Vec::new();
+
+    for (arch, ok, bad, local_map) in results {
+        license_summaries.push(LicenseValidities {
+            arch,
+            valid_licenses: ok,
+            invalid_licenses: bad,
+        });
+
+        println!("{:?}", license_summaries);
+
+        for (license_str, count) in local_map {
+            let entry = license_counter_map.entry(license_str).or_insert(0);
+            *entry += count;
         }
-
-        println!(
-            "For platform {}, {} licenses are valid and {} are invalid",
-            arch, ok_licenses, bad_licenses
-        );
-
-        output_data.push((arch.to_string(), ok_licenses, bad_licenses));
     }
 
-    // Write the output to data.json
-
-    let output_data_json = serde_json::to_string(&output_data)?;
-
-    let mut file = File::create("data.json")?;
+    let output_data_json = serde_json::to_string_pretty(&license_summaries)?;
+    let mut file = File::create("valid_licenses_data.json")?;
     file.write_all(output_data_json.as_bytes())?;
+
+    // Write all license counts to a json file sorted by their counts
+    let mut sorted_license_counter: Vec<_> = license_counter_map
+        .iter()
+        .map(|(license, count)| LicenseCount {
+            license: license.clone(),
+            count: *count,
+        })
+        .collect();
+
+    sorted_license_counter.sort_by(|a, b| b.count.cmp(&a.count));
+
+    let sorted_license_counter_json = serde_json::to_string_pretty(&sorted_license_counter)?;
+    let mut file = File::create("sorted_license_counter.json")?;
+    file.write_all(sorted_license_counter_json.as_bytes())?;
+
+    let license_counter_json = serde_json::to_string_pretty(&license_counter_map)?;
+    let mut file = File::create("license_counter.json")?;
+    file.write_all(license_counter_json.as_bytes())?;
 
     // Print the time taken to run this function
     let duration = start.elapsed();
